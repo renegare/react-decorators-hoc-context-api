@@ -1,0 +1,24 @@
+{
+  "scripts": {
+    "x": "babel-node",
+    "jest": "jest"
+  },
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "create-react-class": "^15.6.2",
+    "enzyme": "^3.1.0",
+    "enzyme-adapter-react-16": "^1.0.2",
+    "jest": "^21.2.1",
+    "react": "^16.0.0",
+    "react-dom": "16",
+    "react-test-renderer": "16"
+  },
+
+  "jest": {
+    "setupFiles": [ "./test-setup.js" ]
+  }
+}
